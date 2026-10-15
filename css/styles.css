@@ -1,0 +1,241 @@
+/* ==========================================================================
+   OFICIOS QUE VALEN - ESTILOS CORPORATIVOS Y ACCESIBILIDAD
+   Paleta Oficial:
+   - Azul marino principal: #052B63
+   - Azul corporativo: #0A63CE
+   - Azul brillante de acento: #129BFF
+   - Azul muy claro para fondos: #EAF4FF
+   - Blanco: #FFFFFF
+   - Gris de fondo secundario: #F6F8FB
+   - Gris de texto secundario: #667085
+   - Texto oscuro: #172033
+   ========================================================================== */
+
+:root {
+  --color-navy-primary: #052B63;
+  --color-blue-corporate: #0A63CE;
+  --color-blue-accent: #129BFF;
+  --color-blue-light: #EAF4FF;
+  --color-white: #FFFFFF;
+  --color-gray-bg: #F6F8FB;
+  --color-gray-text: #667085;
+  --color-text-dark: #172033;
+  --font-base-desktop: 17.5px;
+  --font-base-mobile: 16px;
+}
+
+html {
+  font-size: var(--font-base-desktop);
+  scroll-behavior: smooth;
+  color: var(--color-text-dark);
+  background-color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: var(--font-base-mobile);
+  }
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.65;
+  color: var(--color-text-dark);
+  background-color: var(--color-gray-bg);
+}
+
+/* Tipografía de títulos con alto contraste y dignidad */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-navy-primary);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+/* Botones accesibles de mínimo 48-52px de altura */
+.btn-primary {
+  min-height: 52px;
+  padding: 0.75rem 1.75rem;
+  background-color: var(--color-navy-primary);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px rgba(5, 43, 99, 0.12);
+  border: 2px solid transparent;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-blue-corporate);
+  box-shadow: 0 6px 18px rgba(10, 99, 206, 0.2);
+  transform: translateY(-1px);
+}
+
+.btn-accent {
+  min-height: 52px;
+  padding: 0.75rem 1.75rem;
+  background: linear-gradient(135deg, var(--color-navy-primary) 0%, var(--color-blue-accent) 100%);
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 14px rgba(18, 155, 255, 0.25);
+}
+
+.btn-accent:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 6px 20px rgba(18, 155, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  min-height: 52px;
+  padding: 0.75rem 1.75rem;
+  background-color: #ffffff;
+  color: var(--color-navy-primary);
+  border: 2px solid #D0D5DD;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-blue-corporate);
+  color: var(--color-blue-corporate);
+  background-color: var(--color-blue-light);
+}
+
+.btn-whatsapp {
+  min-height: 52px;
+  padding: 0.75rem 1.75rem;
+  background-color: #128C7E;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 14px rgba(18, 140, 126, 0.25);
+}
+
+.btn-whatsapp:hover {
+  background-color: #075E54;
+  transform: translateY(-1px);
+}
+
+/* Campos de formulario accesibles para personas mayores */
+.form-input-accessible {
+  min-height: 52px;
+  font-size: 1.05rem;
+  padding: 0.75rem 1.15rem;
+  border: 2px solid #D0D5DD;
+  border-radius: 0.75rem;
+  background-color: #FFFFFF;
+  color: var(--color-text-dark);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  width: 100%;
+}
+
+.form-input-accessible:focus {
+  outline: none;
+  border-color: var(--color-blue-corporate);
+  box-shadow: 0 0 0 4px rgba(10, 99, 206, 0.15);
+}
+
+/* Indicador de foco visible para teclado */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--color-blue-accent);
+  outline-offset: 2px;
+}
+
+/* Tarjetas y contenedores limpios */
+.card-clean {
+  background: #ffffff;
+  border: 1px solid #E4E7EC;
+  border-radius: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.card-clean:hover {
+  border-color: #B2D7FF;
+  box-shadow: 0 10px 24px -4px rgba(5, 43, 99, 0.08);
+}
+
+/* Badges oficiales */
+.badge-verified {
+  background-color: var(--color-blue-light);
+  color: var(--color-navy-primary);
+  border: 1px solid #B2D7FF;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.badge-b2b {
+  background: linear-gradient(135deg, var(--color-navy-primary) 0%, var(--color-blue-accent) 100%);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.65rem;
+  border-radius: 0.4rem;
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+/* Galería con lightbox */
+.gallery-thumbnail {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  position: relative;
+}
+
+.gallery-thumbnail img {
+  transition: transform 0.3s ease;
+}
+
+.gallery-thumbnail:hover img {
+  transform: scale(1.04);
+}
+
+/* Barra inferior móvil para perfil de especialista */
+.mobile-profile-action-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border-top: 1px solid #E4E7EC;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08);
+  padding: 0.75rem 1rem;
+  z-index: 40;
+}
+
+/* Estilo para impresión / dossier ejecutivo B2B */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+  }
+}
