@@ -196,7 +196,7 @@ function renderHeader() {
             Perfiles 100% Validados
           </a>
           <span class="text-white/40">|</span>
-          <a href="https://wa.me/?text=Hola,%20necesito%20asistencia%20en%20Oficios%20que%20Valen" target="_blank" class="hover:text-[#129BFF] transition flex items-center gap-1 font-semibold">
+          <a href="https://wa.me/51987654321?text=Hola,%20necesito%20asistencia%20en%20Oficios%20que%20Valen" target="_blank" class="hover:text-[#129BFF] transition flex items-center gap-1 font-semibold">
             <i data-lucide="help-circle" class="w-4 h-4 text-[#129BFF]"></i>
             Línea de Ayuda Asistida
           </a>
@@ -267,7 +267,7 @@ function renderHeader() {
         <a href="#contacto" class="block px-3 py-2.5 rounded-lg text-lg font-semibold text-[#172033] hover:bg-[#EAF4FF]">CONTACTO</a>
         <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
           <a href="#especialistas" class="btn-primary w-full text-center">Explorar Especialistas</a>
-          <a href="https://wa.me/?text=Hola,%20necesito%20ayuda%20para%20usar%20Oficios%20que%20Valen" target="_blank" class="btn-secondary w-full text-center">
+          <a href="https://wa.me/51987654321?text=Hola,%20necesito%20ayuda%20para%20usar%20Oficios%20que%20Valen" target="_blank" class="btn-secondary w-full text-center">
             <i data-lucide="help-circle" class="w-5 h-5"></i>
             Línea de Ayuda Asistida
           </a>
@@ -339,7 +339,7 @@ function renderFooter() {
             <p class="text-white/80 text-sm mb-4">
               ¿Tienes dudas o necesitas asistencia personalizada para encontrar a alguien?
             </p>
-            <a href="https://wa.me/?text=Hola,%20deseo%20asesoria%20en%20Oficios%20que%20Valen" target="_blank" class="btn-whatsapp w-full text-sm py-2.5 px-3 mb-3">
+            <a href="https://wa.me/51987654321?text=Hola,%20deseo%20asesoria%20en%20Oficios%20que%20Valen" target="_blank" class="btn-whatsapp w-full text-sm py-2.5 px-3 mb-3">
               <i data-lucide="message-circle" class="w-5 h-5"></i>
               WhatsApp Oficial
             </a>
@@ -455,25 +455,25 @@ function renderInicio(container) {
                   <i data-lucide="award" class="w-6 h-6"></i>
                 </div>
                 <div>
-                  <p class="text-xs text-gray-500 font-medium">Experiencia promedio</p>
-                  <p class="text-base font-bold text-[#052B63]">+30 años en oficio real</p>
+                  <p class="text-xs text-gray-500 font-medium">Docente con experiencia</p>
+                  <p class="text-base font-bold text-[#052B63]">+30 años formando alumnos</p>
                 </div>
               </div>
 
-              <!-- Imagen del especialista activo trabajando con dignidad -->
+              <!-- Imagen de la profesora en el hero principal -->
               <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-gray-200 aspect-[4/5] relative">
                 <img 
-                  src="assets/images/profesora-matematicas.png" 
-                  alt="Profesora de matemáticas con amplia experiencia" 
-                  class="w-full h-full object-cover hero-specialist-image"
+                  src="assets/images/profesora-hero.jpg" 
+                  alt="Prof. María Elena Torres - Docente con amplia experiencia" 
+                  class="w-full h-full object-cover object-top"
                 >
-                <div class="absolute inset-0 bg-gradient-to-t from-[#052B63]/80 via-transparent to-transparent flex items-end p-6">
+                <div class="absolute inset-0 bg-gradient-to-t from-[#052B63]/90 via-[#052B63]/25 to-transparent flex items-end p-6">
                   <div class="text-white">
-                    <span class="badge-verified text-xs mb-1.5 inline-flex bg-white/90 text-[#052B63]">
-                      <i data-lucide="check" class="w-3.5 h-3.5 text-[#0A63CE]"></i> Profesora Activa
+                    <span class="badge-verified text-xs mb-1.5 inline-flex bg-white/95 text-[#052B63]">
+                      <i data-lucide="check" class="w-3.5 h-3.5 text-[#0A63CE]"></i> Docente Activa
                     </span>
                     <p class="text-lg font-bold">Prof. María Elena Torres</p>
-                    <p class="text-xs text-white/90">35 años de experiencia en docencia y tutorías de matemática</p>
+                    <p class="text-xs text-white/90">Especialista en educación y tutorías • Pueblo Libre, Lima</p>
                   </div>
                 </div>
               </div>
@@ -835,7 +835,7 @@ function renderEspecialistasList(container) {
                 type="text" 
                 id="filter-search" 
                 value="${state.searchQuery}" 
-                placeholder="Ej. ebanista, SUNAT, motor..." 
+                placeholder="Ej. ebanista, SUNAT, costura, clases..." 
                 class="form-input-accessible py-2 pr-8 text-sm h-12"
               >
               ${state.searchQuery ? `
@@ -880,7 +880,7 @@ function renderEspecialistasList(container) {
           </p>
           <div class="pt-2 flex flex-col sm:flex-row gap-3 justify-center">
             <button id="empty-reset-btn" class="btn-primary text-sm">Ver todos los perfiles</button>
-            <a href="https://wa.me/?text=Hola,%20busco%20un%20especialista%20y%20no%20lo%20encuentro" target="_blank" class="btn-whatsapp text-sm">
+            <a href="https://wa.me/51987654321?text=Hola,%20busco%20un%20especialista%20y%20no%20lo%20encuentro" target="_blank" class="btn-whatsapp text-sm">
               <i data-lucide="message-circle" class="w-4 h-4"></i>
               Solicitar Búsqueda Asistida
             </a>
@@ -1052,7 +1052,7 @@ function renderSpecialistCardHtml(sp) {
 // VISTA 4: PERFIL INDIVIDUAL DEL ESPECIALISTA (CONFORME A 5.4 Y 5.5)
 // -----------------------------------------------------------------------------
 function renderPerfilIndividual(container, slug) {
-  const sp = SPECIALISTS_DATA.find(s => s.slug === slug || s.id === slug);
+  const sp = SPECIALISTS_DATA.find(s => s.slug === slug || s.id === slug || s.altSlug === slug || s.altId === slug);
 
   if (!sp) {
     container.innerHTML = `
@@ -1596,7 +1596,7 @@ function renderEmpresasB2B(container) {
               </div>
               <div>
                 <label for="b2b-telefono" class="block text-sm font-bold text-[#052B63] mb-1">Teléfono o WhatsApp de Contacto *</label>
-                <input type="tel" id="b2b-telefono" required placeholder="+51 999 999 999" class="form-input-accessible">
+                <input type="tel" id="b2b-telefono" required placeholder="+51 987 654 321" class="form-input-accessible">
               </div>
             </div>
 
@@ -1832,156 +1832,532 @@ function renderDossierB2B(container, specialistId) {
 // -----------------------------------------------------------------------------
 function renderQuieroOfrecer(container) {
   container.innerHTML = `
+    <!-- HEADER EMPÁTICO Y DIGNIFICANTE -->
     <section class="bg-gradient-to-b from-[#EAF4FF] via-[#F6F8FB] to-white py-14 border-b border-gray-200">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
         <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-[#B2D7FF] shadow-sm">
           <span class="w-2.5 h-2.5 rounded-full bg-[#129BFF]"></span>
-          <span class="text-xs font-bold text-[#052B63] uppercase tracking-wide">Para personas de 50 a 75 años</span>
+          <span class="text-xs font-bold text-[#052B63] uppercase tracking-wide">Comunidad de Especialistas de 50 a 75 años en Perú</span>
         </div>
+
+        <!-- Título y subtítulo requeridos con precisión -->
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-[#052B63] tracking-tight leading-tight">
           Tu experiencia todavía puede generar nuevas oportunidades.
         </h1>
-        <p class="text-lg sm:text-xl text-[#0A63CE] font-bold max-w-2xl mx-auto leading-snug">
+        <p class="text-xl sm:text-2xl text-[#0A63CE] font-bold max-w-3xl mx-auto leading-snug">
           Cuéntanos qué sabes hacer. Puedes registrarte por tu cuenta o podemos acompañarte durante todo el proceso.
         </p>
-        <p class="text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          No necesitas crear una cuenta ni completar un formulario largo para empezar. Elige la opción que te resulte más cómoda.
+        <p class="text-base text-gray-600 max-w-xl mx-auto leading-relaxed">
+          Diseñado para personas de 50 a 75 años. Una experiencia sencilla, sin términos técnicos confusos, con atención humana y respetuosa.
         </p>
       </div>
     </section>
 
+    <!-- 3 OPCIONES CLARAS -->
     <section class="py-12 bg-[#F6F8FB]">
-      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="onboarding-choice card-clean p-7 border-2 border-[#0A63CE] bg-white rounded-3xl shadow-xl flex flex-col justify-between relative">
-            <div class="absolute -top-3.5 left-6 bg-[#0A63CE] text-white text-xs font-extrabold px-3.5 py-1 rounded-full uppercase tracking-wider shadow">Opción más sencilla</div>
-            <div class="space-y-3 pt-2">
-              <div class="w-14 h-14 rounded-2xl bg-[#EAF4FF] text-[#0A63CE] flex items-center justify-center"><i data-lucide="phone-incoming" class="w-7 h-7"></i></div>
+          
+          <!-- OPCIÓN 2 (DESTACADA/PRIORITARIA): QUIERO QUE ME CONTACTEN -->
+          <div class="card-clean p-8 border-2 border-[#0A63CE] bg-white rounded-3xl shadow-xl flex flex-col justify-between relative order-1 md:order-1">
+            <div class="absolute -top-3.5 left-6 bg-[#0A63CE] text-white text-xs font-black px-4 py-1 rounded-full uppercase tracking-wider shadow">
+              ⭐ Opción más cómoda
+            </div>
+            <div class="space-y-4 pt-2">
+              <div class="w-14 h-14 rounded-2xl bg-[#EAF4FF] text-[#0A63CE] flex items-center justify-center font-bold">
+                <i data-lucide="phone-call" class="w-7 h-7"></i>
+              </div>
               <h3 class="text-2xl font-black text-[#052B63]">Quiero que me contacten</h3>
-              <p class="text-base text-gray-600 leading-relaxed">Déjanos unos datos básicos y un asesor te llamará para conocer tu experiencia y ayudarte a crear tu perfil.</p>
+              <p class="text-base text-gray-600 leading-relaxed">
+                Déjanos tus datos y un asesor de Oficios que Valen se comunicará contigo.
+              </p>
+              <div class="p-3 bg-[#F0F7FF] rounded-xl text-xs text-[#052B63] space-y-1">
+                <p class="font-bold flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-[#0A63CE]"></i> No tienes que llenar formularios largos</p>
+                <p class="text-gray-600">Te llamamos con calma y armamos tu perfil por ti.</p>
+              </div>
             </div>
-            <div class="pt-6"><button id="btn-show-callback" type="button" class="btn-primary w-full text-base py-3.5"><i data-lucide="phone-call" class="w-5 h-5"></i><span>Solicitar llamada</span></button></div>
+            <div class="pt-6">
+              <button id="btn-show-callback" class="btn-primary w-full text-base py-3.5 font-bold shadow-md hover:shadow-lg">
+                <i data-lucide="phone-call" class="w-5 h-5"></i>
+                <span>Solicitar llamada</span>
+              </button>
+            </div>
           </div>
 
-          <div class="onboarding-choice card-clean p-7 bg-white rounded-3xl shadow-md border border-gray-200 flex flex-col justify-between">
-            <div class="space-y-3">
-              <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-[#128C7E] flex items-center justify-center"><i data-lucide="message-circle" class="w-7 h-7"></i></div>
-              <h3 class="text-2xl font-black text-[#052B63]">Necesito ayuda por WhatsApp</h3>
-              <p class="text-base text-gray-600 leading-relaxed">Abre WhatsApp con un mensaje preparado y solicita acompañamiento para empezar.</p>
+          <!-- OPCIÓN 1: QUIERO REGISTRARME (WIZARD GUIADO POR PASOS) -->
+          <div class="card-clean p-8 bg-white rounded-3xl shadow-md border border-gray-200 flex flex-col justify-between hover:border-[#0A63CE] transition order-2 md:order-2">
+            <div class="space-y-4">
+              <div class="w-14 h-14 rounded-2xl bg-[#EAF4FF] text-[#052B63] flex items-center justify-center font-bold">
+                <i data-lucide="clipboard-list" class="w-7 h-7"></i>
+              </div>
+              <h3 class="text-2xl font-black text-[#052B63]">Quiero registrarme</h3>
+              <p class="text-base text-gray-600 leading-relaxed">
+                Completa tus datos y cuéntanos sobre tu experiencia.
+              </p>
+              <div class="p-3 bg-gray-50 rounded-xl text-xs text-gray-600 space-y-1">
+                <p class="font-bold text-[#052B63] flex items-center gap-1.5"><i data-lucide="layers" class="w-4 h-4 text-[#0A63CE]"></i> Asistente guiado de 4 pasos</p>
+                <p>Avanza a tu propio ritmo desde cualquier dispositivo.</p>
+              </div>
             </div>
-            <div class="pt-6"><a href="https://wa.me/?text=Hola,%20quiero%20formar%20parte%20de%20Oficios%20que%20Valen%20y%20necesito%20ayuda%20para%20registrar%20mi%20experiencia." target="_blank" rel="noopener" class="btn-whatsapp w-full text-base py-3.5"><i data-lucide="message-circle" class="w-5 h-5"></i><span>Abrir WhatsApp</span></a></div>
+            <div class="pt-6">
+              <button id="btn-show-wizard" class="btn-secondary w-full text-base py-3.5 font-bold">
+                <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                <span>Comenzar registro</span>
+              </button>
+            </div>
           </div>
 
-          <div class="onboarding-choice card-clean p-7 bg-white rounded-3xl shadow-md border border-gray-200 flex flex-col justify-between">
-            <div class="space-y-3">
-              <div class="w-14 h-14 rounded-2xl bg-[#EAF4FF] text-[#052B63] flex items-center justify-center"><i data-lucide="edit-3" class="w-7 h-7"></i></div>
-              <h3 class="text-2xl font-black text-[#052B63]">Quiero registrarme ahora</h3>
-              <p class="text-base text-gray-600 leading-relaxed">Completa tus datos, cuéntanos qué sabes hacer y deja tu información para que revisemos tu perfil.</p>
+          <!-- OPCIÓN 3: NECESITO AYUDA (WHATSAPP PERÚ) -->
+          <div class="card-clean p-8 bg-white rounded-3xl shadow-md border border-gray-200 flex flex-col justify-between hover:border-[#128C7E] transition order-3 md:order-3">
+            <div class="space-y-4">
+              <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-[#128C7E] flex items-center justify-center font-bold">
+                <i data-lucide="message-circle" class="w-7 h-7"></i>
+              </div>
+              <h3 class="text-2xl font-black text-[#052B63]">Necesito ayuda</h3>
+              <p class="text-base text-gray-600 leading-relaxed">
+                Podemos ayudarte a crear tu perfil y explicarte cómo funciona la plataforma.
+              </p>
+              <div class="p-3 bg-emerald-50/60 rounded-xl text-xs text-gray-700 space-y-1">
+                <p class="font-bold text-[#128C7E] flex items-center gap-1.5"><i data-lucide="sparkles" class="w-4 h-4"></i> Atención humana inmediata</p>
+                <p>Escríbenos directamente a nuestro WhatsApp oficial en Perú.</p>
+              </div>
             </div>
-            <div class="pt-6"><button id="btn-show-full-form" type="button" class="btn-secondary w-full text-base py-3.5"><i data-lucide="file-text" class="w-5 h-5"></i><span>Comenzar registro</span></button></div>
+            <div class="pt-6">
+              <a href="https://wa.me/51987654321?text=Hola,%20quiero%20formar%20parte%20de%20Oficios%20que%20Valen%20y%20necesito%20ayuda%20para%20registrar%20mi%20experiencia." target="_blank" class="btn-whatsapp w-full text-base py-3.5 font-bold shadow">
+                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                <span>Hablar por WhatsApp</span>
+              </a>
+            </div>
           </div>
+
         </div>
 
-        <div id="simple-callback-box" class="hidden mt-10 bg-white p-7 sm:p-10 rounded-3xl border-2 border-[#0A63CE] shadow-2xl space-y-6">
+        <!-- =================================================================== -->
+        <!-- SECCIÓN FORMULARIO CORTO: "QUIERO QUE ME CONTACTEN" (DIRECTO Y AMABLE) -->
+        <!-- =================================================================== -->
+        <div id="simple-callback-box" class="bg-white p-8 sm:p-12 rounded-3xl border-2 border-[#0A63CE] shadow-xl max-w-2xl mx-auto space-y-6">
           <div class="text-center space-y-2">
-            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#EAF4FF] text-xs font-bold text-[#0A63CE]"><i data-lucide="phone-call" class="w-4 h-4"></i> Solicitud rápida</span>
-            <h2 class="text-3xl font-extrabold text-[#052B63]">Déjanos tus datos y te llamamos</h2>
-            <p class="text-base text-gray-600 max-w-xl mx-auto">Solo necesitamos información básica. No necesitas subir documentos en este momento.</p>
+            <span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#EAF4FF] text-xs font-bold text-[#0A63CE]">
+              <i data-lucide="phone-incoming" class="w-4 h-4"></i> Solicitud de Llamada Asistida
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-[#052B63]">Déjanos tus datos y te llamamos</h2>
+            <p class="text-sm sm:text-base text-gray-600">
+              Solo necesitamos estos 4 datos sencillos para comunicarnos contigo:
+            </p>
           </div>
-          <form id="simple-callback-form" class="space-y-5 max-w-xl mx-auto pt-2">
-            <div><label for="cb-nombre" class="block text-base font-bold text-[#052B63] mb-1.5">Nombre y apellido *</label><input type="text" id="cb-nombre" required placeholder="Ej. Rosa Mendoza" class="form-input-accessible"></div>
-            <div><label for="cb-telefono" class="block text-base font-bold text-[#052B63] mb-1.5">Teléfono o WhatsApp *</label><input type="tel" id="cb-telefono" required placeholder="Ej. 999 999 999" class="form-input-accessible"></div>
-            <div><label for="cb-ciudad" class="block text-base font-bold text-[#052B63] mb-1.5">Distrito o ciudad *</label><input type="text" id="cb-ciudad" required placeholder="Ej. Pueblo Libre, Lima" class="form-input-accessible"></div>
-            <div><label for="cb-oficio" class="block text-base font-bold text-[#052B63] mb-1.5">¿Qué sabes hacer o cuál es tu especialidad? *</label><input type="text" id="cb-oficio" required placeholder="Ej. Carpintería, costura, docencia, contabilidad..." class="form-input-accessible"></div>
-            <div class="pt-3 flex flex-col sm:flex-row gap-3"><button type="submit" class="btn-primary flex-1 text-lg py-4"><i data-lucide="phone-call" class="w-6 h-6"></i><span>Quiero que me contacten</span></button><button id="btn-cancel-callback" type="button" class="btn-secondary sm:w-auto">Cancelar</button></div>
-            <p class="text-xs text-gray-400 text-center">Esta es una demostración. La solicitud se guarda localmente en el navegador para simular el flujo.</p>
+
+          <form id="simple-callback-form" class="space-y-4 pt-2">
+            <div>
+              <label for="cb-nombre" class="block text-sm font-bold text-[#052B63] mb-1.5">Nombre y apellido *</label>
+              <input type="text" id="cb-nombre" required placeholder="Ej. Roberto Méndez o Rosa Mendoza" class="form-input-accessible">
+            </div>
+
+            <div>
+              <label for="cb-telefono" class="block text-sm font-bold text-[#052B63] mb-1.5">Teléfono / WhatsApp *</label>
+              <input type="tel" id="cb-telefono" required placeholder="Ej. 987 654 321" class="form-input-accessible">
+            </div>
+
+            <div>
+              <label for="cb-distrito" class="block text-sm font-bold text-[#052B63] mb-1.5">Distrito o ciudad *</label>
+              <input type="text" id="cb-distrito" required placeholder="Ej. Surco, Jesús María, Miraflores, Arequipa..." class="form-input-accessible">
+            </div>
+
+            <div>
+              <label for="cb-oficio" class="block text-sm font-bold text-[#052B63] mb-1.5">¿Qué sabes hacer? *</label>
+              <textarea id="cb-oficio" rows="3" required placeholder="Ej. Carpintería y ebanistería, costura y confección, tutorías escolares, contabilidad..." class="form-input-accessible h-auto py-3"></textarea>
+            </div>
+
+            <div class="pt-3">
+              <button type="submit" class="btn-primary w-full text-base sm:text-lg py-4 font-bold shadow-md hover:shadow-lg">
+                <i data-lucide="phone-call" class="w-5 h-5"></i>
+                <span>Solicitar llamada</span>
+              </button>
+            </div>
+            
+            <p class="text-xs text-gray-400 text-center">
+              Tus datos están seguros. Un asesor humano te llamará sin apuros para conocerte y ayudarte a crear tu perfil.
+            </p>
           </form>
-          <div id="callback-success-alert" class="hidden text-center p-8 bg-[#EAF4FF] rounded-2xl border-2 border-[#0A63CE] space-y-4">
-            <div class="w-16 h-16 rounded-full bg-[#0A63CE] text-white flex items-center justify-center mx-auto shadow-md"><i data-lucide="check-circle" class="w-10 h-10"></i></div>
+
+          <!-- CONFIRMACIÓN CÁLIDA EXACTA SOLICITADA -->
+          <div id="callback-success-alert" class="hidden text-center p-8 bg-[#F0F7FF] rounded-2xl border-2 border-[#0A63CE] space-y-4">
+            <div class="w-16 h-16 rounded-full bg-[#0A63CE] text-white flex items-center justify-center mx-auto shadow-md">
+              <i data-lucide="check" class="w-9 h-9"></i>
+            </div>
             <h3 class="text-2xl font-black text-[#052B63]">¡Gracias por compartir tu experiencia!</h3>
-            <p class="text-lg text-[#052B63] font-bold max-w-lg mx-auto leading-relaxed">Un asesor de Oficios que Valen se pondrá en contacto contigo para conocerte mejor y ayudarte a crear tu perfil.</p>
-            <div class="pt-2"><a href="#inicio" class="btn-secondary text-sm">Volver al inicio</a></div>
+            <p class="text-lg text-[#052B63] font-semibold max-w-lg mx-auto leading-relaxed">
+              Un asesor de Oficios que Valen se pondrá en contacto contigo para conocerte mejor y ayudarte a crear tu perfil.
+            </p>
+            <p class="text-sm text-gray-600">
+              Pronto nos comunicaremos al teléfono indicado. ¡Es un honor contar con tu trayectoria!
+            </p>
+            <div class="pt-3">
+              <a href="#inicio" class="btn-primary inline-flex items-center gap-2 px-8 py-3.5 text-base font-bold">
+                <i data-lucide="home" class="w-5 h-5"></i>
+                <span>Volver al inicio</span>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div id="full-registration-box" class="hidden mt-10 bg-white p-7 sm:p-10 rounded-3xl border border-gray-200 shadow-xl space-y-6">
-          <div class="text-center space-y-2"><h2 class="text-2xl sm:text-3xl font-extrabold text-[#052B63]">Cuéntanos sobre tu experiencia</h2><p class="text-sm sm:text-base text-gray-600">Completa solo la información esencial. Luego podremos ayudarte a desarrollar mejor tu perfil y portafolio.</p></div>
-          <form id="full-onboarding-form" class="space-y-5 max-w-2xl mx-auto">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div><label for="f-nombre" class="block text-sm font-bold text-[#052B63] mb-1">Nombre completo *</label><input type="text" id="f-nombre" required placeholder="Tu nombre" class="form-input-accessible"></div>
-              <div><label for="f-telefono" class="block text-sm font-bold text-[#052B63] mb-1">Teléfono o WhatsApp *</label><input type="tel" id="f-telefono" required placeholder="999 999 999" class="form-input-accessible"></div>
+        <!-- =================================================================== -->
+        <!-- SECCIÓN ASISTENTE GUIADO: "QUIERO REGISTRARME" (WIZARD 4 PASOS) -->
+        <!-- =================================================================== -->
+        <div id="wizard-box" class="hidden bg-white p-6 sm:p-10 rounded-3xl border border-gray-200 shadow-xl max-w-3xl mx-auto space-y-8">
+          
+          <div class="flex items-center justify-between pb-4 border-b border-gray-200">
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-[#0A63CE]">Asistente de Registro</span>
+              <h2 class="text-2xl font-extrabold text-[#052B63]">Crea tu perfil paso a paso</h2>
             </div>
-            <div><label for="f-ciudad" class="block text-sm font-bold text-[#052B63] mb-1">Distrito o ciudad *</label><input type="text" id="f-ciudad" required placeholder="Ej. Pueblo Libre, Lima" class="form-input-accessible"></div>
-            <div><label for="f-oficio" class="block text-sm font-bold text-[#052B63] mb-1">Oficio o especialidad *</label><input type="text" id="f-oficio" required placeholder="Ej. Ebanistería, alta costura, docencia, contabilidad" class="form-input-accessible"></div>
-            <div><label for="f-anios" class="block text-sm font-bold text-[#052B63] mb-1">Años de experiencia aproximados *</label><input type="number" id="f-anios" required min="1" max="65" placeholder="Ej. 30" class="form-input-accessible"></div>
-            <div><label for="f-servicios" class="block text-sm font-bold text-[#052B63] mb-1">Cuéntanos brevemente qué sabes hacer *</label><textarea id="f-servicios" rows="3" required placeholder="Describe los trabajos, clases, asesorías o servicios que podrías ofrecer..." class="form-input-accessible h-auto py-3"></textarea></div>
-            <div><label for="f-modalidad" class="block text-sm font-bold text-[#052B63] mb-1">¿Cómo prefieres brindar tus servicios? *</label><select id="f-modalidad" class="form-input-accessible"><option value="presencial">Presencial</option><option value="virtual">Virtual</option><option value="hibrido">Presencial y virtual</option></select></div>
-            <div class="pt-2 flex flex-col sm:flex-row gap-3"><button type="submit" class="btn-accent flex-1 text-base py-3.5"><i data-lucide="check" class="w-5 h-5"></i><span>Enviar mi información</span></button><button id="btn-cancel-full" type="button" class="btn-secondary sm:w-auto">Cancelar</button></div>
+            <button id="btn-close-wizard" class="text-gray-400 hover:text-gray-600 p-2 rounded-lg hover:bg-gray-100" title="Cerrar asistente">
+              <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+          </div>
+
+          <!-- INDICADOR DE 4 PASOS -->
+          <div class="grid grid-cols-4 gap-2 text-center">
+            <div id="step-tab-1" class="p-2.5 rounded-xl bg-[#EAF4FF] border border-[#0A63CE] text-[#0A63CE] font-bold text-xs transition">
+              <span class="block text-sm">1</span> Datos
+            </div>
+            <div id="step-tab-2" class="p-2.5 rounded-xl bg-gray-50 border border-gray-200 text-gray-500 font-bold text-xs transition">
+              <span class="block text-sm">2</span> Experiencia
+            </div>
+            <div id="step-tab-3" class="p-2.5 rounded-xl bg-gray-50 border border-gray-200 text-gray-500 font-bold text-xs transition">
+              <span class="block text-sm">3</span> Modalidad
+            </div>
+            <div id="step-tab-4" class="p-2.5 rounded-xl bg-gray-50 border border-gray-200 text-gray-500 font-bold text-xs transition">
+              <span class="block text-sm">4</span> Portafolio
+            </div>
+          </div>
+
+          <form id="wizard-form" class="space-y-6">
+            <!-- PASO 1: DATOS PERSONALES -->
+            <div id="wizard-step-1" class="wizard-step space-y-4">
+              <div class="border-b border-gray-100 pb-2">
+                <h3 class="text-lg font-bold text-[#052B63]">Paso 1: Datos personales de contacto</h3>
+                <p class="text-xs text-gray-500">¿Cómo pueden comunicarse contigo las personas interesadas en tu servicio?</p>
+              </div>
+              <div>
+                <label for="wz-nombre" class="block text-sm font-bold text-[#052B63] mb-1">Nombre y apellido *</label>
+                <input type="text" id="wz-nombre" required placeholder="Ej. Rosa Mendoza o Roberto Méndez" class="form-input-accessible">
+              </div>
+              <div>
+                <label for="wz-telefono" class="block text-sm font-bold text-[#052B63] mb-1">Teléfono o WhatsApp *</label>
+                <input type="tel" id="wz-telefono" required placeholder="Ej. 987 654 321" class="form-input-accessible">
+              </div>
+              <div>
+                <label for="wz-ciudad" class="block text-sm font-bold text-[#052B63] mb-1">Distrito o ciudad (Perú) *</label>
+                <input type="text" id="wz-ciudad" required placeholder="Ej. Jesús María, Surco, Pueblo Libre, Miraflores, Arequipa..." class="form-input-accessible">
+              </div>
+            </div>
+
+            <!-- PASO 2: TU EXPERIENCIA -->
+            <div id="wizard-step-2" class="wizard-step hidden space-y-4">
+              <div class="border-b border-gray-100 pb-2">
+                <h3 class="text-lg font-bold text-[#052B63]">Paso 2: Tu experiencia y trayectoria</h3>
+                <p class="text-xs text-gray-500">Cuéntanos sobre tu especialidad y los años que le has dedicado a tu vocación.</p>
+              </div>
+              <div>
+                <label for="wz-oficio" class="block text-sm font-bold text-[#052B63] mb-1">Oficio o especialidad *</label>
+                <input type="text" id="wz-oficio" placeholder="Ej. Confección y alta costura, Ebanistería y restauración, Tutorías escolares, Contabilidad..." class="form-input-accessible">
+              </div>
+              <div>
+                <label for="wz-anios" class="block text-sm font-bold text-[#052B63] mb-1">Años de experiencia aproximados *</label>
+                <input type="number" id="wz-anios" min="5" max="65" placeholder="Ej. 28" class="form-input-accessible">
+              </div>
+              <div>
+                <label for="wz-descripcion" class="block text-sm font-bold text-[#052B63] mb-1">Breve descripción de lo que haces *</label>
+                <textarea id="wz-descripcion" rows="3" placeholder="Describe brevemente tus servicios principales y lo que te gusta de tu trabajo..." class="form-input-accessible h-auto py-3"></textarea>
+              </div>
+            </div>
+
+            <!-- PASO 3: MODALIDAD DE ATENCIÓN -->
+            <div id="wizard-step-3" class="wizard-step hidden space-y-4">
+              <div class="border-b border-gray-100 pb-2">
+                <h3 class="text-lg font-bold text-[#052B63]">Paso 3: Modalidad de atención</h3>
+                <p class="text-xs text-gray-500">¿Cómo prefieres brindar tus servicios a los clientes o empresas?</p>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+                <label class="cursor-pointer border-2 border-gray-200 rounded-2xl p-4 flex flex-col items-center text-center hover:border-[#0A63CE] transition bg-white has-[:checked]:border-[#0A63CE] has-[:checked]:bg-[#F0F7FF]">
+                  <input type="radio" name="wz-modalidad" value="Presencial" checked class="mt-1">
+                  <span class="font-bold text-[#052B63] text-sm mt-2">Presencial</span>
+                  <span class="text-xs text-gray-500 mt-1">A domicilio, taller o en local del cliente</span>
+                </label>
+                <label class="cursor-pointer border-2 border-gray-200 rounded-2xl p-4 flex flex-col items-center text-center hover:border-[#0A63CE] transition bg-white has-[:checked]:border-[#0A63CE] has-[:checked]:bg-[#F0F7FF]">
+                  <input type="radio" name="wz-modalidad" value="Virtual" class="mt-1">
+                  <span class="font-bold text-[#052B63] text-sm mt-2">Virtual</span>
+                  <span class="text-xs text-gray-500 mt-1">Por videollamada, WhatsApp o internet</span>
+                </label>
+                <label class="cursor-pointer border-2 border-gray-200 rounded-2xl p-4 flex flex-col items-center text-center hover:border-[#0A63CE] transition bg-white has-[:checked]:border-[#0A63CE] has-[:checked]:bg-[#F0F7FF]">
+                  <input type="radio" name="wz-modalidad" value="Híbrida" class="mt-1">
+                  <span class="font-bold text-[#052B63] text-sm mt-2">Ambas / Híbrida</span>
+                  <span class="text-xs text-gray-500 mt-1">Combina presencial y virtual según el caso</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- PASO 4: PORTAFOLIO O EVIDENCIAS -->
+            <div id="wizard-step-4" class="wizard-step hidden space-y-4">
+              <div class="border-b border-gray-100 pb-2">
+                <h3 class="text-lg font-bold text-[#052B63]">Paso 4: Portafolio o evidencias de tus trabajos</h3>
+                <p class="text-xs text-gray-500">El portafolio genera confianza inmediata para que los clientes te elijan.</p>
+              </div>
+              <div class="border-2 border-dashed border-[#B2D7FF] rounded-2xl p-6 text-center bg-[#F6F8FB] space-y-3">
+                <div class="w-12 h-12 rounded-xl bg-[#EAF4FF] text-[#0A63CE] flex items-center justify-center mx-auto">
+                  <i data-lucide="image-plus" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <p class="text-sm font-bold text-[#052B63]">Sube fotos de tus trabajos o creaciones</p>
+                  <p class="text-xs text-gray-500 mt-0.5">Puedes cargar imágenes desde tu celular o computadora (opcional)</p>
+                </div>
+                <input type="file" id="wz-fotos" accept="image/*" multiple class="text-xs text-gray-500 file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-[#0A63CE] file:text-white hover:file:bg-[#052B63] cursor-pointer">
+              </div>
+              <div>
+                <label for="wz-evidencias-texto" class="block text-sm font-bold text-[#052B63] mb-1">Describe los trabajos que has realizado</label>
+                <textarea id="wz-evidencias-texto" rows="3" placeholder="Ej. Restauración de comedores antiguos en cedro, confección de vestidos de fiesta, asesorías contables a negocios familiares..." class="form-input-accessible h-auto py-3"></textarea>
+              </div>
+            </div>
+
+            <!-- BOTONES DE NAVEGACIÓN ANTERIOR / SIGUIENTE / FINALIZAR -->
+            <div class="pt-4 flex items-center justify-between border-t border-gray-200">
+              <button type="button" id="wizard-prev-btn" class="btn-secondary text-sm px-6 py-2.5 invisible">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                <span>Anterior</span>
+              </button>
+              
+              <div class="text-xs font-bold text-gray-400">
+                Paso <span id="wizard-current-step-label">1</span> de 4
+              </div>
+
+              <button type="button" id="wizard-next-btn" class="btn-primary text-sm px-7 py-2.5 font-bold">
+                <span>Siguiente</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+
+              <button type="submit" id="wizard-submit-btn" class="btn-primary text-sm px-7 py-2.5 font-bold hidden bg-emerald-600 hover:bg-emerald-700">
+                <i data-lucide="check" class="w-4 h-4"></i>
+                <span>Finalizar registro</span>
+              </button>
+            </div>
           </form>
-          <div id="full-reg-success" class="hidden text-center p-7 bg-[#EAF4FF] rounded-2xl border border-[#0A63CE] space-y-3"><h4 class="text-xl font-bold text-[#052B63]">¡Información recibida!</h4><p class="text-base text-gray-700">Un asesor podrá continuar contigo la creación del perfil y solicitar fotografías de tus trabajos cuando corresponda.</p><a href="#inicio" class="btn-secondary text-sm mt-2">Volver al inicio</a></div>
+
+          <!-- MENSAJE DE CONFIRMACIÓN DEL WIZARD -->
+          <div id="wizard-success-alert" class="hidden text-center p-8 bg-[#F0F7FF] rounded-2xl border-2 border-[#0A63CE] space-y-4">
+            <div class="w-16 h-16 rounded-full bg-[#0A63CE] text-white flex items-center justify-center mx-auto shadow-md">
+              <i data-lucide="check-circle-2" class="w-9 h-9"></i>
+            </div>
+            <h3 class="text-2xl font-black text-[#052B63]">¡Gracias por compartir tu experiencia!</h3>
+            <p class="text-lg text-[#052B63] font-semibold max-w-lg mx-auto leading-relaxed">
+              Un asesor de Oficios que Valen se pondrá en contacto contigo para conocerte mejor y ayudarte a crear tu perfil.
+            </p>
+            <p class="text-sm text-gray-600">
+              Hemos guardado tus datos correctamente. Revisaremos tu información para publicar tu perfil destacado.
+            </p>
+            <div class="pt-3">
+              <a href="#inicio" class="btn-primary inline-flex items-center gap-2 px-8 py-3.5 text-base font-bold">
+                <i data-lucide="home" class="w-5 h-5"></i>
+                <span>Volver al inicio</span>
+              </a>
+            </div>
+          </div>
+
         </div>
+
       </div>
     </section>
   `;
 
+  // Controladores interactivos
   const btnShowCallback = document.getElementById('btn-show-callback');
-  const btnShowFull = document.getElementById('btn-show-full-form');
-  const btnCancelCallback = document.getElementById('btn-cancel-callback');
-  const btnCancelFull = document.getElementById('btn-cancel-full');
+  const btnShowWizard = document.getElementById('btn-show-wizard');
   const callbackBox = document.getElementById('simple-callback-box');
-  const fullBox = document.getElementById('full-registration-box');
+  const wizardBox = document.getElementById('wizard-box');
+  const btnCloseWizard = document.getElementById('btn-close-wizard');
+
   const callbackForm = document.getElementById('simple-callback-form');
   const callbackSuccess = document.getElementById('callback-success-alert');
-  const fullForm = document.getElementById('full-onboarding-form');
-  const fullSuccess = document.getElementById('full-reg-success');
 
-  function showOnly(box) {
-    if (callbackBox) callbackBox.classList.add('hidden');
-    if (fullBox) fullBox.classList.add('hidden');
-    if (box) {
-      box.classList.remove('hidden');
-      setTimeout(() => box.scrollIntoView({ behavior: 'smooth', block: 'start' }), 20);
+  // Wizard elements
+  let currentStep = 1;
+  const wizardForm = document.getElementById('wizard-form');
+  const wizardSuccess = document.getElementById('wizard-success-alert');
+  const prevBtn = document.getElementById('wizard-prev-btn');
+  const nextBtn = document.getElementById('wizard-next-btn');
+  const submitBtn = document.getElementById('wizard-submit-btn');
+  const stepLabel = document.getElementById('wizard-current-step-label');
+
+  function updateWizardUI() {
+    for (let i = 1; i <= 4; i++) {
+      const stepEl = document.getElementById(`wizard-step-${i}`);
+      const tabEl = document.getElementById(`step-tab-${i}`);
+      if (stepEl) {
+        if (i === currentStep) {
+          stepEl.classList.remove('hidden');
+        } else {
+          stepEl.classList.add('hidden');
+        }
+      }
+      if (tabEl) {
+        if (i === currentStep) {
+          tabEl.className = 'p-2.5 rounded-xl bg-[#EAF4FF] border border-[#0A63CE] text-[#0A63CE] font-bold text-xs transition';
+        } else if (i < currentStep) {
+          tabEl.className = 'p-2.5 rounded-xl bg-emerald-50 border border-emerald-300 text-emerald-700 font-bold text-xs transition';
+        } else {
+          tabEl.className = 'p-2.5 rounded-xl bg-gray-50 border border-gray-200 text-gray-500 font-bold text-xs transition';
+        }
+      }
     }
+
+    if (stepLabel) stepLabel.textContent = currentStep;
+
+    if (currentStep === 1) {
+      if (prevBtn) prevBtn.classList.add('invisible');
+    } else {
+      if (prevBtn) prevBtn.classList.remove('invisible');
+    }
+
+    if (currentStep === 4) {
+      if (nextBtn) nextBtn.classList.add('hidden');
+      if (submitBtn) submitBtn.classList.remove('hidden');
+    } else {
+      if (nextBtn) nextBtn.classList.remove('hidden');
+      if (submitBtn) submitBtn.classList.add('hidden');
+    }
+
     if (window.lucide) window.lucide.createIcons();
   }
 
-  if (btnShowCallback) btnShowCallback.addEventListener('click', () => { showOnly(callbackBox); setTimeout(() => document.getElementById('cb-nombre')?.focus(), 350); });
-  if (btnShowFull) btnShowFull.addEventListener('click', () => { showOnly(fullBox); setTimeout(() => document.getElementById('f-nombre')?.focus(), 350); });
-  if (btnCancelCallback) btnCancelCallback.addEventListener('click', () => showOnly(null));
-  if (btnCancelFull) btnCancelFull.addEventListener('click', () => showOnly(null));
+  if (btnShowCallback && callbackBox) {
+    btnShowCallback.addEventListener('click', () => {
+      wizardBox.classList.add('hidden');
+      callbackBox.classList.remove('hidden');
+      callbackBox.scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('cb-nombre').focus();
+    });
+  }
 
+  if (btnShowWizard && wizardBox) {
+    btnShowWizard.addEventListener('click', () => {
+      callbackBox.classList.add('hidden');
+      wizardBox.classList.remove('hidden');
+      currentStep = 1;
+      updateWizardUI();
+      wizardBox.scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('wz-nombre').focus();
+    });
+  }
+
+  if (btnCloseWizard && wizardBox) {
+    btnCloseWizard.addEventListener('click', () => {
+      wizardBox.classList.add('hidden');
+      callbackBox.classList.remove('hidden');
+    });
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      if (currentStep > 1) {
+        currentStep--;
+        updateWizardUI();
+      }
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      // Validación básica por paso
+      if (currentStep === 1) {
+        const nom = document.getElementById('wz-nombre').value.trim();
+        const tel = document.getElementById('wz-telefono').value.trim();
+        const ciu = document.getElementById('wz-ciudad').value.trim();
+        if (!nom || !tel || !ciu) {
+          alert('Por favor completa tu nombre, teléfono y distrito.');
+          return;
+        }
+      } else if (currentStep === 2) {
+        const ofi = document.getElementById('wz-oficio').value.trim();
+        const anios = document.getElementById('wz-anios').value.trim();
+        if (!ofi || !anios) {
+          alert('Por favor indica tu oficio y años de experiencia.');
+          return;
+        }
+      }
+      if (currentStep < 4) {
+        currentStep++;
+        updateWizardUI();
+      }
+    });
+  }
+
+  // Manejo del formulario de solicitud de llamada directa de 4 campos
   if (callbackForm && callbackSuccess) {
     callbackForm.addEventListener('submit', (e) => {
       e.preventDefault();
+      const nombre = document.getElementById('cb-nombre').value.trim();
+      const telefono = document.getElementById('cb-telefono').value.trim();
+      const distrito = document.getElementById('cb-distrito').value.trim();
+      const oficio = document.getElementById('cb-oficio').value.trim();
+
       const solicitudLlamada = {
-        id: 'CALL-' + Date.now(), fecha: new Date().toLocaleString('es-PE'),
-        nombre: document.getElementById('cb-nombre').value.trim(),
-        telefono: document.getElementById('cb-telefono').value.trim(),
-        ciudad: document.getElementById('cb-ciudad').value.trim(),
-        oficio: document.getElementById('cb-oficio').value.trim(), estado: 'Pendiente de llamada asistida'
+        id: 'CALL-' + Date.now(),
+        fecha: new Date().toLocaleString(),
+        nombre,
+        telefono,
+        distrito,
+        oficio,
+        tipo: 'Solicitud de llamada asistida',
+        estado: 'Pendiente de llamada asistida'
       };
-      state.specialistApplications.unshift(solicitudLlamada); persistData();
-      callbackForm.classList.add('hidden'); callbackSuccess.classList.remove('hidden');
+
+      state.specialistApplications.unshift(solicitudLlamada);
+      persistData();
+
+      callbackForm.classList.add('hidden');
+      callbackSuccess.classList.remove('hidden');
+
       const counter = document.getElementById('header-leads-counter');
-      if (counter) counter.textContent = state.leads.length + state.b2bRequests.length + state.specialistApplications.length;
+      if (counter) {
+        counter.textContent = state.leads.length + state.b2bRequests.length + state.specialistApplications.length;
+      }
+
       if (window.lucide) window.lucide.createIcons();
     });
   }
 
-  if (fullForm && fullSuccess) {
-    fullForm.addEventListener('submit', (e) => {
+  // Manejo del formulario wizard de 4 pasos
+  if (wizardForm && wizardSuccess) {
+    wizardForm.addEventListener('submit', (e) => {
       e.preventDefault();
+      const modalidadVal = document.querySelector('input[name="wz-modalidad"]:checked')?.value || 'Presencial';
+
       const registro = {
-        id: 'APP-' + Date.now(), fecha: new Date().toLocaleString('es-PE'),
-        nombre: document.getElementById('f-nombre').value.trim(), telefono: document.getElementById('f-telefono').value.trim(),
-        ciudad: document.getElementById('f-ciudad').value.trim(), oficio: document.getElementById('f-oficio').value.trim(),
-        aniosExperiencia: document.getElementById('f-anios').value.trim(), descripcion: document.getElementById('f-servicios').value.trim(),
-        modalidad: document.getElementById('f-modalidad').value, estado: 'Pendiente de revisión'
+        id: 'APP-' + Date.now(),
+        fecha: new Date().toLocaleString(),
+        nombre: document.getElementById('wz-nombre').value.trim(),
+        telefono: document.getElementById('wz-telefono').value.trim(),
+        distrito: document.getElementById('wz-ciudad').value.trim(),
+        oficio: document.getElementById('wz-oficio').value.trim(),
+        aniosExperiencia: document.getElementById('wz-anios').value.trim(),
+        descripcion: document.getElementById('wz-descripcion').value.trim(),
+        modalidad: modalidadVal,
+        portafolioEvidencias: document.getElementById('wz-evidencias-texto').value.trim(),
+        tipo: 'Registro guiado paso a paso',
+        estado: 'Pendiente de revisión'
       };
-      state.specialistApplications.unshift(registro); persistData();
-      fullForm.classList.add('hidden'); fullSuccess.classList.remove('hidden');
+
+      state.specialistApplications.unshift(registro);
+      persistData();
+
+      wizardForm.classList.add('hidden');
+      wizardSuccess.classList.remove('hidden');
+
       const counter = document.getElementById('header-leads-counter');
-      if (counter) counter.textContent = state.leads.length + state.b2bRequests.length + state.specialistApplications.length;
+      if (counter) {
+        counter.textContent = state.leads.length + state.b2bRequests.length + state.specialistApplications.length;
+      }
+
       if (window.lucide) window.lucide.createIcons();
     });
   }
@@ -2123,8 +2499,8 @@ function renderContacto(container) {
               </div>
               <div>
                 <h4 class="font-bold text-[#052B63]">WhatsApp de Asistencia</h4>
-                <p class="text-sm text-gray-600">Atención coordinada por WhatsApp</p>
-                <a href="https://wa.me/" target="_blank" class="text-xs font-bold text-[#0A63CE] hover:underline mt-1 inline-block">
+                <p class="text-sm text-gray-600">+51 987 654 321</p>
+                <a href="https://wa.me/51987654321" target="_blank" class="text-xs font-bold text-[#0A63CE] hover:underline mt-1 inline-block">
                   Abrir conversación →
                 </a>
               </div>
@@ -2504,11 +2880,9 @@ function initGlobalEventListeners() {
       // Enlace oficial de WhatsApp con mensaje precargado
       // Número institucional o del especialista autorizado
       const sp = SPECIALISTS_DATA.find(s => s.id === spId);
-      const phone = (sp && sp.whatsappNumber) ? sp.whatsappNumber.replace('+', '') : '';
+      const phone = (sp && sp.whatsappNumber) ? sp.whatsappNumber.replace('+', '') : '51987654321';
       const encodedMsg = encodeURIComponent(mensaje);
-      const waUrl = phone
-        ? `https://wa.me/${phone}?text=${encodedMsg}`
-        : `https://wa.me/?text=${encodedMsg}`;
+      const waUrl = `https://wa.me/${phone}?text=${encodedMsg}`;
 
       // Abrir WhatsApp en nueva pestaña
       window.open(waUrl, '_blank');

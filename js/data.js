@@ -11,7 +11,7 @@ const CATEGORIES_DATA = [
     icon: 'hammer',
     shortDesc: 'Fabricación, restauración y ebanistería tradicional a medida.',
     description: 'Maestros artesanos y carpinteros con décadas dominando maderas finas, ensambles, muebles a medida y reparaciones estructurales.',
-    image: 'assets/images/ebanista-madera.png',
+    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80',
     order: 1,
     serviceCount: 4,
     tags: ['Ebanistería', 'Muebles a medida', 'Restauración', 'Puertas y ventanas']
@@ -23,7 +23,7 @@ const CATEGORIES_DATA = [
     icon: 'scissors',
     shortDesc: 'Alta costura, patronaje, arreglos y confección de piezas exclusivas.',
     description: 'Especialistas con maestría en patronaje, sastrería, confección de cortinas, vestidos de gala y reparación de prendas finas.',
-    image: 'assets/images/modista-alta-costura.png',
+    image: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=800&q=80',
     order: 2,
     serviceCount: 5,
     tags: ['Sastrería', 'Ajustes finos', 'Tapicería ligera', 'Patronaje']
@@ -59,7 +59,7 @@ const CATEGORIES_DATA = [
     icon: 'graduation-cap',
     shortDesc: 'Docencia con pedagogía probada en ciencias, idiomas, artes y música.',
     description: 'Docentes y catedráticos con décadas en aulas escolares y universitarias que enseñan con paciencia, claridad y método comprobado.',
-    image: 'assets/images/profesora-matematicas.png',
+    image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80',
     order: 5,
     serviceCount: 7,
     tags: ['Matemáticas y física', 'Inglés y francés', 'Lectura y escritura', 'Música']
@@ -106,8 +106,8 @@ const CATEGORIES_DATA = [
     name: 'Contabilidad y finanzas',
     icon: 'calculator',
     shortDesc: 'Declaraciones tributarias, estados financieros, nómina y costos.',
-    description: 'Contadores públicos y auditores con solidez técnica en tributación peruana, presupuestos y auditoría preventiva.',
-    image: 'assets/images/contador-finanzas.png',
+    description: 'Contadores públicos y revisores fiscales con solidez técnica en normatividad fiscal, presupuestos y auditoría preventiva.',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
     order: 9,
     serviceCount: 6,
     tags: ['Impuestos y SUNAT', 'Costos y presupuestos', 'Auditoría', 'Planillas']
@@ -147,16 +147,16 @@ const SPECIALISTS_DATA = [
     category: 'carpinteria-madera',
     categoryName: 'Carpintería y madera',
     yearsExperience: 34,
-    location: 'Pueblo Libre, Lima (taller y atención a domicilio)',
-    zoneCoverage: 'Pueblo Libre, Jesús María, Magdalena, San Miguel y otros distritos de Lima previa coordinación',
+    location: 'Surco, Lima (Taller propio y atención a domicilio)',
+    zoneCoverage: 'Surco, Miraflores, San Borja, La Molina y San Isidro',
     modality: 'Presencial / En taller y a domicilio',
     modalityType: 'presencial',
     isVerified: true,
     badgeText: 'Perfil Verificado por Oficios que Valen',
-    avatar: 'assets/images/ebanista-madera.png',
-    actionPhoto: 'assets/images/ebanista-madera.png',
-    shortSummary: '34 años dedicados a la carpintería arquitectónica, ensambles tradicionales sin clavos a la vista y rescate de mobiliario en cedro y roble.',
-    aboutMe: 'Inicié en el oficio en 1990 en el taller de mi familia, perfeccionando técnicas de ensamble tradicional, torno y tallado a mano. A lo largo de tres décadas he construido comedores, bibliotecas integrales y restaurado piezas históricas que siguen intactas hoy. Para mí la madera es un material vivo; cada trabajo que entrego debe estar hecho para durar al menos dos generaciones.',
+    avatar: 'assets/images/carpintero-ebanista.jpg',
+    actionPhoto: 'assets/images/carpintero-ebanista.jpg',
+    shortSummary: '34 años dedicados a la ebanistería fina, muebles a medida en cedro y caoba, y rescate de mobiliario clásico con técnicas de ensamble tradicional.',
+    aboutMe: 'Inicié en el oficio en 1990 en el taller de mi familia, perfeccionando técnicas de ensamble tradicional, torno y tallado a mano. A lo largo de tres décadas he construido comedores, bibliotecas integrales y restaurado piezas históricas que siguen intactas hoy. Para mí la madera es un material noble; cada trabajo que entrego debe estar hecho para durar al menos dos generaciones.',
     services: [
       {
         name: 'Fabricación de mobiliario a medida',
@@ -168,20 +168,20 @@ const SPECIALISTS_DATA = [
       },
       {
         name: 'Tratamiento y sellado de maderas antiguas',
-        desc: 'Retiro de barnices químicos, lijado al grano fino y aplicación de ceras naturales o gomalaca.'
+        desc: 'Retiro de barnices antiguos, lijado al grano fino y aplicación de ceras naturales o gomalaca.'
       }
     ],
     trajectory: [
-      'Maestro ebanista en taller artesanal de Lima (1995-2012), coordinando proyectos residenciales de alto detalle.',
-      'Ebanista independiente con más de 450 piezas construidas a medida y entregadas a satisfacción.',
-      'Capacitador voluntario de jóvenes aprendices en técnicas de ensamble con cola animal y caja y espiga.'
+      'Maestro mayor en Taller Artesanal con más de 450 piezas construidas a medida y entregadas a satisfacción.',
+      'Restaurador de mobiliario de época en casonas tradicionales de Lima y distritos históricos.',
+      'Capacitador voluntario de jóvenes aprendices en técnicas de ensamble en caja y espiga.'
     ],
     certificaciones: [
-      'Técnico en Carpintería y Ebanistería, formación técnica especializada (1992)',
+      'Técnico en Transformación de Maderas y Acabados Finos (SENCICO / SENATI)',
       'Certificación en Manejo Seguro de Maquinaria y Conservación Forestal'
     ],
     disponibilidad: 'Lunes a Viernes de 8:00 a.m. a 5:00 p.m. Sábados de 8:00 a.m. a 1:00 p.m.',
-    whatsappNumber: '',
+    whatsappNumber: '+51987556677',
     isB2BReady: false,
     portfolio: [
       {
@@ -209,22 +209,23 @@ const SPECIALISTS_DATA = [
   },
   {
     id: 'elena-valenzuela',
-    slug: 'elena-valenzuela-confeccion',
-    name: 'Elena Valenzuela',
-    title: 'Modista de Alta Confección & Patronista Textil',
+    slug: 'rosa-mendoza-confeccion',
+    altSlug: 'elena-valenzuela-confeccion',
+    name: 'Rosa Mendoza',
+    title: 'Especialista en Confección & Alta Costura',
     category: 'costura-confeccion',
     categoryName: 'Costura y confección',
-    yearsExperience: 29,
-    location: 'Jesús María, Lima (atelier propio y atención con cita)',
-    zoneCoverage: 'Jesús María, Pueblo Libre, Lince, Magdalena, San Miguel y Lima Metropolitana previa coordinación',
+    yearsExperience: 28,
+    location: 'Jesús María, Lima (Taller propio y atención a domicilio)',
+    zoneCoverage: 'Jesús María, Pueblo Libre, San Isidro, Miraflores, San Miguel y Surco',
     modality: 'Presencial y Asesoría Virtual de Medidas',
     modalityType: 'hibrido',
     isVerified: true,
     badgeText: 'Perfil Verificado por Oficios que Valen',
-    avatar: 'assets/images/modista-alta-costura.png',
-    actionPhoto: 'assets/images/modista-alta-costura.png',
-    shortSummary: '29 años en sastrería femenina y masculina, diseño de prendas a la medida y transformación de ropa con corte anatómico impecable.',
-    aboutMe: 'Aprendí a coser antes de terminar la secundaria y convertí el patronaje en mi pasión de vida. He confeccionado desde trajes de sastrería ejecutiva hasta vestidos de novia y ajustes complejos en telas delicadas como seda y lino. Mi propósito es que cada prenda calce con exactitud y comodidad, realzando la presencia de quien la viste.',
+    avatar: 'assets/images/modista-costura.jpg',
+    actionPhoto: 'assets/images/modista-costura.jpg',
+    shortSummary: '28 años de experiencia en sastrería femenina, alta costura, vestidos de gala y transformación de prendas finas con acabado de boutique.',
+    aboutMe: 'Aprendí las bases del corte y la costura desde muy joven y convertí el patronaje anatómico en mi vocación de vida. He confeccionado desde trajes ejecutivos de dos piezas hasta vestidos de gala y arreglos de alta complejidad en telas delicadas como seda, lino y terciopelo. Mi objetivo es que cada prenda quede exacta, cómoda y resalte con elegancia la figura de quien la viste.',
     services: [
       {
         name: 'Sastrería y trajes a la medida',
@@ -235,21 +236,21 @@ const SPECIALISTS_DATA = [
         desc: 'Reducción de hombros, entalle de sacos, transformación de prendas vintage y cambio de forros.'
       },
       {
-        name: 'Confección de mantelería fina y cortinajes',
-        desc: 'Cálculo de caídas, pespuntes invisibles y materiales resistentes al sol.'
+        name: 'Confección de vestidos de gala y mantelería fina',
+        desc: 'Cálculo de caídas, drapeados, costuras invisibles y materiales resistentes.'
       }
     ],
     trajectory: [
-      'Jefa de corte y patronaje en taller de confección de Gamarra, Lima (1998-2010).',
-      'Atelier independiente con más de 1,200 clientes satisfechos a lo largo de 15 años.',
-      'Tutora invitada en talleres de costura comunitaria para mujeres cabeza de hogar.'
+      'Jefa de corte y confección en talleres textiles de Lima y Gamarra alta gama (1996-2009).',
+      'Atelier independiente en Jesús María con más de 1,200 clientes satisfechos a lo largo de 15 años.',
+      'Tutora invitada en talleres de confección comunitaria para madres emprendedoras.'
     ],
     certificaciones: [
-      'Diplomado en Patronaje Industrial y Escalamiento Femenino (1996)',
+      'Diplomado en Patronaje Industrial y Escalamiento (SENATI / Instituto de Modas)',
       'Certificado en Manejo de Telas Pesadas y Forros de Seda'
     ],
     disponibilidad: 'Martes a Sábado con cita previa de 9:00 a.m. a 6:00 p.m.',
-    whatsappNumber: '',
+    whatsappNumber: '+51987112233',
     isB2BReady: false,
     portfolio: [
       {
@@ -279,53 +280,53 @@ const SPECIALISTS_DATA = [
     id: 'carlos-restrepo',
     slug: 'carlos-alberto-restrepo-finanzas',
     name: 'Carlos Alberto Restrepo',
-    title: 'Contador Público Colegiado & Asesor Financiero Pyme',
+    title: 'Contador Público Colegiado & Asesor Tributario Pyme',
     category: 'contabilidad-finanzas',
     categoryName: 'Contabilidad y finanzas',
     yearsExperience: 32,
-    location: 'San Isidro, Lima (atención presencial y virtual a nivel nacional)',
-    zoneCoverage: 'Lima Metropolitana y asesoría virtual para empresas y profesionales de todo el Perú',
-    modality: 'Híbrida (Virtual nacional y Presencial en empresas)',
+    location: 'Miraflores, Lima (Atención presencial y virtual)',
+    zoneCoverage: 'Miraflores, San Isidro, Surco, San Borja y asesoría virtual a todo el Perú',
+    modality: 'Híbrida (Virtual a nivel nacional y Presencial en Lima)',
     modalityType: 'hibrido',
     isVerified: true,
     badgeText: 'Perfil Verificado por Oficios que Valen',
-    avatar: 'assets/images/contador-finanzas.png',
-    actionPhoto: 'assets/images/contador-finanzas.png',
-    shortSummary: '32 años ordenando las finanzas y la tributación de pymes y profesionales independientes, evitando sanciones y blindando el flujo de caja.',
-    aboutMe: 'He ejercido como contador general, director de finanzas y revisor fiscal en compañías comerciales y manufactureras. Conozco a profundidad las exigencias de la SUNAT y las dificultades reales que afronta una empresa pequeña o mediana. Mi enfoque no es simplemente entregar cifras históricas, sino explicar con claridad qué significan para tomar decisiones financieras saludables.',
+    avatar: 'assets/images/contador-finanzas.jpg',
+    actionPhoto: 'assets/images/contador-finanzas.jpg',
+    shortSummary: '32 años ordenando las finanzas y la tributación de pymes y profesionales independientes, previniendo contingencias con SUNAT y blindando el flujo de caja.',
+    aboutMe: 'He ejercido como contador general, auditor y asesor financiero en compañías comerciales y de servicios. Conozco a profundidad las exigencias de SUNAT, las NIIF y las dificultades reales que afronta una empresa pequeña o mediana en el Perú. Mi enfoque no es simplemente entregar cifras históricas, sino explicar con claridad qué significan para tomar decisiones financieras saludables y pagar lo justo sin riesgos de multas.',
     services: [
       {
-        name: 'Diagnóstico contable y saneamiento tributario',
-        desc: 'Revisión exhaustiva de declaraciones pasadas, conciliaciones bancarias y plan de regularización.'
+        name: 'Diagnóstico contable y regularización ante SUNAT',
+        desc: 'Revisión exhaustiva de declaraciones pasadas, conciliaciones bancarias, libros electrónicos y plan de saneamiento.'
       },
       {
-        name: 'Planeación fiscal para personas naturales y pymes',
-        desc: 'Estructuración legal de costos y deducciones para pagar lo justo sin riesgos de requerimientos.'
+        name: 'Planeación tributaria para personas naturales y pymes',
+        desc: 'Estructuración legal de costos y deducciones para optimizar el pago del Impuesto a la Renta y el IGV.'
       },
       {
-        name: 'Estructuración de flujos de caja y presupuestos',
-        desc: 'Modelos sencillos en hoja de cálculo adaptados al día a día del dueño de negocio.'
+        name: 'Estructuración de flujos de caja y costos operativos',
+        desc: 'Modelos financieros adaptados al día a día del dueño de negocio para proteger la liquidez.'
       }
     ],
     trajectory: [
-      'Auditor y contador principal en empresas comerciales del sector alimentos e importaciones (2004-2021).',
-      'Director administrativo y financiero en empresa textil peruana (1993-2003).',
-      'Consultor independiente para más de 70 pequeñas empresas en adopción de NIIF y control de costos.'
+      'Auditor y Asesor Contable Principal en firmas comerciales y de servicios en Lima (2002-2022).',
+      'Contador General en empresas del sector distribución y logística (1993-2001).',
+      'Consultor independiente para más de 70 pymes en adopción de NIIF y control de costos.'
     ],
     certificaciones: [
-      'Contador Público Colegiado con habilitación profesional vigente',
-      'Especialista en Gerencia Tributaria y Normas Internacionales NIIF'
+      'Contador Público Colegiado (CCPL) con Matrícula Vigente',
+      'Especialista en Tributación Empresarial y Normas Internacionales NIIF'
     ],
     disponibilidad: 'Lunes a Viernes de 8:00 a.m. a 6:00 p.m.',
-    whatsappNumber: '',
+    whatsappNumber: '+51987334455',
     isB2BReady: true,
-    b2bHeadline: 'Auditoría financiera, planeamiento tributario y reestructuración de costos para empresas en crecimiento.',
+    b2bHeadline: 'Auditoría contable, planeación tributaria SUNAT y reestructuración de costos para empresas en crecimiento.',
     b2bSectors: ['Comercio mayorista', 'Servicios profesionales', 'Manufactura ligera', 'Pymes familiares'],
     portfolio: [
       {
         id: 'p7',
         title: 'Plan de saneamiento contable para empresa de logística',
-        description: 'Conciliación de 3 periodos fiscales acumulados y regularización de obligaciones y revisión de saldos ante SUNAT.',
+        description: 'Conciliación de 3 periodos fiscales acumulados y regularización sin contingencias ante SUNAT.',
         image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=900&q=80',
         workType: 'Consultoría tributaria'
       },
@@ -346,8 +347,8 @@ const SPECIALISTS_DATA = [
     category: 'restauracion',
     categoryName: 'Restauración',
     yearsExperience: 26,
-    location: 'Barranco, Lima (taller con atención previa cita)',
-    zoneCoverage: 'Barranco, Miraflores, Surco, San Isidro y otros distritos de Lima previa coordinación',
+    location: 'San Isidro, Lima (Taller propio en San Isidro)',
+    zoneCoverage: 'San Isidro, Miraflores, Barranco, Surco y Lima Metropolitana',
     modality: 'Presencial / Recepción en taller',
     modalityType: 'presencial',
     isVerified: true,
@@ -367,12 +368,12 @@ const SPECIALISTS_DATA = [
       },
       {
         name: 'Mantenimiento preventivo de tallas de madera',
-        desc: 'Desinfección contra xilófagos (comején), consolidación de soporte y acabado cera microcristalina.'
+        desc: 'Desinfección contra xilófagos (polilla), consolidación de soporte y acabado cera microcristalina.'
       }
     ],
     trajectory: [
-      'Auxiliar de restauración en talleres y anticuarios del Centro Histórico de Lima (1997-2005).',
-      'Restauradora titular en Taller San Cristóbal durante 18 años.',
+      'Auxiliar de restauración en anticuarios del Centro Histórico de Lima y Barranco (1997-2005).',
+      'Restauradora titular en taller independiente durante 18 años.',
       'Más de 800 objetos históricos y reliquias familiares restauradas.'
     ],
     certificaciones: [
@@ -380,12 +381,12 @@ const SPECIALISTS_DATA = [
       'Seminario Internacional de Técnicas de Limpieza Química no Invasiva'
     ],
     disponibilidad: 'Lunes a Viernes de 9:30 a.m. a 4:30 p.m.',
-    whatsappNumber: '',
+    whatsappNumber: '+51987667788',
     isB2BReady: false,
     portfolio: [
       {
         id: 'p9',
-        title: 'Restauración de espejo barroco francés',
+        title: 'Restauración de espejo barroco tallado',
         description: 'Reconstrucción de 4 rosetas faltantes con pasta de madera y dorado con pan de oro fino.',
         image: 'https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?auto=format&fit=crop&w=900&q=80',
         workType: 'Dorado y tallado'
@@ -401,62 +402,64 @@ const SPECIALISTS_DATA = [
   },
   {
     id: 'maria-elena-torres',
-    slug: 'maria-elena-torres-matematicas',
+    altId: 'fernando-jaramillo',
+    slug: 'maria-elena-torres-tutorias',
+    altSlug: 'prof-fernando-jaramillo-tutorias',
     name: 'Prof. María Elena Torres',
-    title: 'Profesora & Tutora de Matemáticas, Álgebra y Cálculo',
+    title: 'Especialista en Educación, Matemática & Tutorías Universitarias',
     category: 'clases-tutorias',
     categoryName: 'Clases y tutorías',
-    yearsExperience: 35,
-    location: 'Pueblo Libre, Lima (atención presencial y virtual)',
-    zoneCoverage: 'Pueblo Libre y distritos cercanos; clases virtuales para estudiantes de todo el Perú',
-    modality: 'Virtual y presencial en Lima',
+    yearsExperience: 32,
+    location: 'Pueblo Libre, Lima (Atención presencial y virtual a todo el Perú)',
+    zoneCoverage: 'Clases virtuales en vivo a nivel nacional y presencial en Pueblo Libre, Jesús María y San Miguel',
+    modality: 'Presencial y Virtual a nivel nacional',
     modalityType: 'hibrido',
     isVerified: true,
     badgeText: 'Perfil Verificado por Oficios que Valen',
-    avatar: 'assets/images/profesora-matematicas.png',
-    actionPhoto: 'assets/images/profesora-matematicas.png',
-    shortSummary: '35 años enseñando matemáticas con paciencia y método, desde secundaria hasta los primeros ciclos universitarios.',
-    aboutMe: 'Fui profesora de matemáticas durante más de tres décadas durante más de tres décadas. La clave para aprender matemáticas no es memorizar fórmulas mecánicamente, sino entender los conceptos detrás de ellas y conectarlos con la realidad cotidiana. Utilizo pizarra digital interactiva, resolución paso a paso y paciencia absoluta.',
+    avatar: 'assets/images/profesora-hero.jpg',
+    actionPhoto: 'assets/images/profesora-hero.jpg',
+    shortSummary: '32 años de experiencia docente y pedagógica, enseñando matemáticas, álgebra y cálculo con paciencia, método probado y sin frustración.',
+    aboutMe: 'Fui docente y catedrática durante más de tres décadas. La clave para que un estudiante domine las matemáticas y las ciencias exactas no es memorizar fórmulas mecánicamente, sino entender los conceptos con claridad y confianza. Utilizo pizarra didáctica, resolución guiada paso a paso y paciencia absoluta para que cada estudiante logre sus metas académicas.',
     services: [
       {
         name: 'Tutorías personalizadas de Cálculo Diferencial e Integral',
-        desc: 'Preparación para parciales universitarios y resolución de talleres complejos.'
+        desc: 'Preparación para parciales universitarios y resolución guiada de talleres complejos.'
       },
       {
-        name: 'Nivelación en Álgebra y Geometría para Bachillerato',
+        name: 'Nivelación en Álgebra y Geometría para Secundaria y Bachillerato',
         desc: 'Refuerzo de bases sólidas para estudiantes con vacíos de conceptos escolares.'
       },
       {
-        name: 'Física Mecánica y Termodinámica Aplicada',
-        desc: 'Análisis de vectores, leyes de Newton y resolución guiada de problemas reales.'
+        name: 'Preparación para Exámenes de Admisión Universitaria',
+        desc: 'Razonamiento cuantitativo, velocidad analítica y resolución de problemas tipo examen.'
       }
     ],
     trajectory: [
-      'Docente de matemáticas y ciencias básicas en instituciones educativas de Lima durante más de tres décadas.',
-      'Autor de 3 guías pedagógicas de ejercicios resueltos de cálculo diferencial.',
-      'Miles de estudiantes acompañados en nivelación escolar, preparación universitaria y cursos de ciencias básicas.'
+      'Docente titular en instituciones educativas reconocidas de Lima (1992-2020).',
+      'Autora de guías didácticas de ejercicios resueltos de álgebra, geometría y cálculo.',
+      'Más de 3,500 estudiantes formados con alta tasa de aprobación y comprensión duradera.'
     ],
     certificaciones: [
-      'Licenciada en Educación con especialidad en Matemática',
-      'Magíster en Docencia de las Ciencias Exactas'
+      'Licenciada en Educación con especialidad en Matemáticas y Física',
+      'Magíster en Docencia y Gestión Pedagógica'
     ],
     disponibilidad: 'Lunes a Sábado de 7:00 a.m. a 8:00 p.m. con reserva de horas',
-    whatsappNumber: '',
+    whatsappNumber: '+51987654321',
     isB2BReady: true,
     b2bHeadline: 'Capacitación en pensamiento analítico, análisis cuantitativo y lógica para equipos operativos.',
     b2bSectors: ['Educación técnica', 'Equipos de análisis de datos inicial', 'Entrenamiento a instructores'],
     portfolio: [
       {
         id: 'p11',
-        title: 'Guías de cálculo visual explicadas paso a paso',
+        title: 'Guías didácticas de cálculo visual explicadas paso a paso',
         description: 'Muestra de metodología pedagógica interactiva con diagramas vectoriales para estudiantes.',
         image: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=900&q=80',
         workType: 'Metodología pedagógica'
       },
       {
         id: 'p12',
-        title: 'Sesiones de preparación para evaluaciones y admisión universitaria',
-        description: 'Estrategias de resolución y razonamiento cuantitativo para estudiantes de secundaria y postulantes universitarios.',
+        title: 'Sesiones de preparación para exámenes de ingreso universitario',
+        description: 'Estrategias de resolución rápida y razonamiento cuantitativo para jóvenes postulantes.',
         image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
         workType: 'Entrenamiento intensivo'
       }
@@ -470,8 +473,8 @@ const SPECIALISTS_DATA = [
     category: 'operaciones-procesos',
     categoryName: 'Operaciones y procesos',
     yearsExperience: 31,
-    location: 'Lima / Callao (presencial y remoto para empresas)',
-    zoneCoverage: 'Proyectos empresariales en Lima, Callao y otras regiones del Perú según alcance',
+    location: 'San Isidro, Lima / Arequipa (Presencial y Remoto para Empresas)',
+    zoneCoverage: 'Proyectos empresariales en Lima, Arequipa, Trujillo y Piura',
     modality: 'Híbrida para empresas y asesorías virtuales',
     modalityType: 'hibrido',
     isVerified: true,
@@ -495,17 +498,17 @@ const SPECIALISTS_DATA = [
       }
     ],
     trajectory: [
-      'Gerente de operaciones y planta en empresa manufacturera nacional (2001-2019).',
-      'Jefa de control de calidad y procesos en empresa del sector alimentos (1993-2001).',
+      'Gerente de Operaciones y Planta en grupo manufacturero industrial (2001-2019).',
+      'Jefa de Control de Calidad y Procesos en plantas de alimentos en Lima y Callao (1993-2001).',
       'Asesora de más de 30 empresas medianas en implementación de metodologías 5S y Kaizen.'
     ],
     certificaciones: [
-      'Ingeniera Industrial con honores',
+      'Ingeniera Industrial (Colegiada CIP)',
       'Especialista en Logística Integral y Supply Chain',
       'Certificación Black Belt Six Sigma (1999)'
     ],
     disponibilidad: 'Lunes a Viernes para proyectos corporativos y consultorías por horas.',
-    whatsappNumber: '',
+    whatsappNumber: '+51987223344',
     isB2BReady: true,
     b2bHeadline: 'Diagnóstico de operaciones, reducción de mermas y mentoría a supervisores de producción.',
     b2bSectors: ['Manufactura', 'Alimentos y Bebidas', 'Distribución y Bodegaje', 'Empaques'],
@@ -534,8 +537,8 @@ const SPECIALISTS_DATA = [
     category: 'reparacion-mantenimiento',
     categoryName: 'Reparación y mantenimiento',
     yearsExperience: 33,
-    location: 'Ate, Lima (cobertura en Lima Metropolitana y zonas industriales)',
-    zoneCoverage: 'Ate, Santa Anita, La Victoria, Callao y otras zonas de Lima previa coordinación',
+    location: 'San Miguel, Lima (Cobertura Callao, San Miguel, Magdalena y Lima Oeste)',
+    zoneCoverage: 'Lima Metropolitana y Callao con taller móvil',
     modality: 'Presencial con taller móvil propio',
     modalityType: 'presencial',
     isVerified: true,
@@ -551,27 +554,27 @@ const SPECIALISTS_DATA = [
       },
       {
         name: 'Actualización y balanceo de tableros de distribución',
-        desc: 'Reemplazo de breakers antiguos, instalación de barras de tierra y corrección de sobrecargas.'
+        desc: 'Reemplazo de llaves termomagnéticas antiguas, instalación de barra a tierra y corrección de sobrecargas.'
       },
       {
-        name: 'Diagnóstico de fugas de corriente y aumentos anormales en factura',
+        name: 'Diagnóstico de fugas de corriente y aumentos anormales en el recibo de luz',
         desc: 'Rastreo con instrumentación especializada para aislar circuitos defectuosos.'
       }
     ],
     trajectory: [
-      'Técnico jefe de mantenimiento eléctrico en planta industrial de Lima (1991-2015).',
+      'Técnico jefe de mantenimiento eléctrico en plantas industriales de Lima y Callao (1991-2015).',
       'Más de 900 diagnósticos residenciales e industriales exitosos con cero incidentes de seguridad.',
-      'Proveedor de confianza para administraciones de conjuntos cerrados y pequeñas panificadoras.'
+      'Proveedor de confianza para administraciones de condominios y pequeñas panificadoras.'
     ],
     certificaciones: [
-      'Técnico electricista con formación especializada en instalaciones y mantenimiento industrial',
-      'Capacitación en seguridad eléctrica, bloqueo y etiquetado de equipos industriales'
+      'Técnico Electricista Calificado (SENATI / SENCICO)',
+      'Certificado vigente de Trabajo Seguro en Alturas y Riesgo Eléctrico NFPA 70E'
     ],
     disponibilidad: 'Lunes a Sábado de 7:30 a.m. a 6:00 p.m. Servicio de urgencias programadas.',
-    whatsappNumber: '',
+    whatsappNumber: '+51987445566',
     isB2BReady: true,
     b2bHeadline: 'Planes preventivos de mantenimiento eléctrico, subestaciones y motores para pymes.',
-    b2bSectors: ['Talleres mecánicos', 'Conjuntos residenciales', 'Plantas de alimentos', 'Lavanderías'],
+    b2bSectors: ['Talleres mecánicos', 'Condominios residenciales', 'Plantas de alimentos', 'Lavanderías'],
     portfolio: [
       {
         id: 'p15',

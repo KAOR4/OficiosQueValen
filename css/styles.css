@@ -74,8 +74,8 @@ img {
 
 /* Logo Oficial en Header con mayor presencia de marca (Punto 1) */
 .brand-logo-img {
-  height: 78px !important;
-  max-height: 84px !important;
+  height: 68px !important;
+  max-height: 74px !important;
   width: auto !important;
   object-fit: contain !important;
   transition: transform 0.2s ease;
@@ -87,7 +87,7 @@ img {
 }
 
 .header-navbar {
-  min-height: 102px;
+  min-height: 90px;
 }
 
 /* Contenedores y Layout */
@@ -504,12 +504,4 @@ section + section {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--blue-corporate);
-}
-
-/* Ajustes finales de presentación */
-.hero-specialist-image { object-position: center 22%; }
-.onboarding-choice { min-height: 100%; }
-@media (max-width: 768px) {
-  .brand-logo-img { height: 66px !important; max-height: 70px !important; }
-  .header-navbar { min-height: 84px; }
 }
